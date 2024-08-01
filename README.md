@@ -13,9 +13,9 @@ g++ socket-client.cpp -o socket-client
 - # Запуск
 Сервер
 ```c++
-./socket-server
+./socket-server SERVICE
 ```
 Клиент
 ```c++
-./socket-client
+./socket-client NODE SERVICE
 ```
