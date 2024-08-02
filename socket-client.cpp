@@ -5,8 +5,6 @@
 #include <iostream>
 #include <cstring>
 
-#define PORT 8080
-
 int create_connection(char* node, char* service) {
     struct addrinfo* res = NULL;
     int gai_err;
